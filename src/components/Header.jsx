@@ -1,8 +1,8 @@
-import logoImg from "../assets/Quiz-logo.png;";
+import logoImg from "../assets/quiz-logo.png";
 export default function Header() {
   return (
     <header>
-      <img src={logoImg} />
+      <img src={logoImg} alt="Quiz logo" />
 
       <h1> Quiz</h1>
     </header>
